@@ -128,4 +128,3 @@ schedule = simulated_annealing(solution, resproj_cost, step = 3, cool = 0.99)
 
 schedule_df = schedule_display(schedule)
 print(schedule_df.head(20))
-
